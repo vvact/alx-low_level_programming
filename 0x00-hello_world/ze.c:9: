@@ -1,0 +1,15 @@
+ize.c:10: ERROR: code indent should use tabs where possible
+6-size.c:10: WARNING: please, no spaces at the start of a line
+6-size.c:11: ERROR: code indent should use tabs where possible
+6-size.c:11: WARNING: please, no spaces at the start of a line
+6-size.c:12: ERROR: code indent should use tabs where possible
+6-size.c:12: WARNING: please, no spaces at the start of a line
+6-size.c:13: ERROR: code indent should use tabs where possible
+6-size.c:13: WARNING: please, no spaces at the start of a line
+6-size.c:14: ERROR: code indent should use tabs where possible
+6-size.c:14: WARNING: please, no spaces at the start of a line
+total: 6 errors, 6 warnings, 15 lines checked
+main
+root@191b47836179:/alx-low_level_programming/0x00-hello_world#
+
+
