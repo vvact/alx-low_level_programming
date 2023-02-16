@@ -2,9 +2,9 @@
 #include<stdio.lib>
 int main(void)
 	/**
- * main - Entry point
+ * main - Enter
  *
- * Return: Always 0 (Success)
+ * Ret
  */
 {
 	puts("\"Programming is like building a multilingual puzzle\n"); /* inline comment */
