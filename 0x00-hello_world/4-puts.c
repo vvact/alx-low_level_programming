@@ -7,5 +7,5 @@ int main(void)
  */
 {
 	puts("\"Programming is like building a multilingual puzzle\n"); /* inline comment */
-		return 0;
+		return (0);
 }
