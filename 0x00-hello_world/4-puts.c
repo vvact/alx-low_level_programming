@@ -1,12 +1,11 @@
 #include<stdio.h>
-#include<stdio.lib>
 int main(void)
 	/**
- * main - Enter
+ * main - Entry point
  *
- * Ret
+ * Return: Always 0 (Success)
  */
 {
-	puts("\"Programming is like building a multilingual puzzle\n"); /* inline comment */
+	puts("\"Programming is like building a multilingual puzzle"); /* inline comment */
 		return (0);
 }
