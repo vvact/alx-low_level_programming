@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - Entry point
-*
-* Return: Always 0(success)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0(success)
+ */
 int main(void)
 {
 int c;
@@ -23,7 +23,8 @@ putchar('0' + c);
 if (c + d != 17)
 {
 putchar(',');
-putchar(' ')
+putchar(' ');
+}
 }
 c++;
 }

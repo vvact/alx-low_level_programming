@@ -1,4 +1,5 @@
- #include <stdio.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -6,22 +7,30 @@
  */
 int main(void)
 {
-	char c;
+        int c;
+        int d = 0;
 
-	int d;
+        while (d < 10)
+        {
+                c = 0;
+                while (c < 10)
+                {
+                        if (d != c && d < c)
+                        {
+                                putchar('0' + d);
+                                putchar('0' + c);
 
-	c = 'a';
-	d = 0;
-	while
-		(d < 10) {
-			putchar(d + '0');
-			d++;
-		}
-	while
-		(c <= 'f') {
-			putchar(c);
-			c++;
-		}
-	putchar('\n');
-	return (0);
-}
+                                if (c + d != 17)
+                                {
+                                        putchar(',');
+                                        putchar(' ');
+                                }
+
+                        }
+                        c++;
+                }
+                d++;
+        }
+        putchar('\n');
+        return (0);
+}}
