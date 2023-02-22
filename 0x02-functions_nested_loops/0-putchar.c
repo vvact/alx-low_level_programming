@@ -1,11 +1,10 @@
 #include "main.h"
 /**
 * main-Entry
-*A c program that prints putchr 
+*A c program that prints put
 * Return: Always(0)success
 */
 int main(void)
-
 {
 _putchar('_');
 _putchar('p');
